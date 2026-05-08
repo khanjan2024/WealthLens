@@ -10,6 +10,7 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     /\.vercel\.app$/,
+    /wealthlens/,
   ],
   credentials: true,
 }));

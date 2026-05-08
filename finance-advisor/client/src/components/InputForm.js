@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+const API_URL = process.env.REACT_APP_API_URL || '';
+
 const DEMO = {
   income: '50000',
   rent: '15000',
@@ -65,7 +67,7 @@ export default function InputForm({ onAnalyze }) {
     setLoading(true);
     setError('');
     try {
-      const { data } = await axios.post('/api/analyze', form);
+      const { data } = await axios.post(`${API_URL}/api/analyze`, form);
       if (data.error) {
         setError(data.error);
       } else {

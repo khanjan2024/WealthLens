@@ -2,7 +2,7 @@
   "name": "finance-advisor-client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://your-backend.onrender.com",
+  "proxy": "https://wealthlens-56f1.onrender.com",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
