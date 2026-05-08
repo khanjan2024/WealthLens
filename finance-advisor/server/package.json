@@ -1,0 +1,16 @@
+{
+  "name": "finance-advisor-server",
+  "version": "1.0.0",
+  "description": "AI Personal Finance Advisor Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.9.1"
+  }
+}
